@@ -1,0 +1,9 @@
+* Maven & Gradle - Build tools, performance wise, gradle does better, for simpilcity maven handles dependecies better than  gradle
+* Spring and spring boot are different
+* Hibernate is an ORM for spring 
+* JPA is Java persistance API, it helpas in connecting to any relational databases with lesser dependencies.
+* POJO - Plain old java objects - Java class with its attributes and functions(getters & setters)
+* H2 is an in-memeory Relational databases, java based, below 2.5 MB, for developement and testing purpose.
+* annotaions used in POJO for relational mapping, @Entity for mapping the class as entity or a table, @Id for making it as id field, @GeneratedValue for iud generation stratgey, @ManyToMany to make a field as manay to many
+* javax is older versions, use jakarta as the new version to import annotations, 
+* ./mvnw spring-boot:run to run the application
