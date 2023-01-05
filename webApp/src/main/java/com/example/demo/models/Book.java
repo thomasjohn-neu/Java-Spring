@@ -38,7 +38,13 @@ public class Book {
 		this.publisher = publisher;
 	}
 	
-	
+	public Book() {
+		
+	}
+
+
+
+
 	public Long getId() {
 		return id;
 	}
